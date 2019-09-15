@@ -5,11 +5,17 @@ This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio
 * **Module 2** covers the technologies essential for developing and deploying microservices at scale where the microservices are the responsibility of autonomous teams.
 * **Module 3** covers the observability operational needs of microservice deployments at scale, such as tracing request and understanding microservice health.
 * **Module 4** covers the deployment, scaling and updating of microserivces at scale, through Kubernetes and Istio.
+* **Module 5** covers the deployment, scaling and updating of microserivces on the Cloud.
 
-Each workshop module consists of a number of Open Liberty Guides each of which demonstrates a key cloud-native microservice technology. Each Guide is 
-designed to be taken independently so if you just want to learn about a specific technology you can just take that guide. If, however, you're goal is to learn about all the technologies, then working through them in the order shown below is recommended.
+Each workshop module consists of a number of Open Liberty Guides each of which demonstrates a key cloud-native microservice technology. Each Guide is designed to be taken independently so if you just want to learn about a specific technology you can just take that guide. 
+
+The workshop is split into two parts. The first you will pick two guides from the 1st part of the workshop. Pick 1 guide from modules 1-3. Then pick one guide from module 4. This should take you around an 45 minutes to finish.
+
+For the second part of the workshop you will pick one of the two guides in module 5. These take around 45 minutes to finish.
 
 ## Table of Contents
+
+### 1st Part of Workshop
 - [Cloud-native Java Workshop](#cloud-native-java-workshop)
   - [Table of Contents](#table-of-contents)
   - [Workshop Preparation](#workshop-preparation)
@@ -35,7 +41,10 @@ designed to be taken independently so if you just want to learn about a specific
     - [Checking the health of microservices on Kubernetes](#checking-the-health-of-microservices-on-kubernetes)
     - [Managing microservice traffic using Istio](#managing-microservice-traffic-using-istio)
 
-
+### 2nd Part of Workshop
+- [Module 5: The Cloud](#module-5-the-cloud)
+    - [Deploying microservices to IBM Cloud]()
+    - [Deploying microservices to OpenShift]()
 
 ## Workshop Preparation
 
@@ -230,3 +239,24 @@ https://openliberty.io/guides/istio-intro.html
 
 If you have feedback or find problems, please raise an issue here:
 https://github.com/OpenLiberty/guide-istio-intro
+
+
+# Module 5: The Cloud
+
+### Deploying microservices to IBM Cloud
+
+Explore how to deploy microservices to IBM Cloud Kubernetes Service (IKS).
+
+https://openliberty.io/guides/cloud-ibm.html
+
+If you have feedback or find problems, please raise an issue here:
+https://github.com/OpenLiberty/guide-cloud-ibm
+
+### Deploying microserives to OpenShift
+
+Explore how to deploy microservices to Red Hat OpenShift.
+
+https://openliberty.io/guides/cloud-openshift.html
+
+If you have feedback or find problems, please raise an issue here:
+https://github.com/OpenLiberty/guide-cloud-openshift
