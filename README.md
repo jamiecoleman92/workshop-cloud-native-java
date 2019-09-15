@@ -62,6 +62,7 @@ To use these guides you need the following pre-requisites:
    2. Mac: https://docs.docker.com/docker-for-windows/#kubernetes
    3. Linux: https://github.com/kubernetes/minikube#installation)
 6. Download latest stable Istio release (not a Pre-release): https://github.com/istio/istio/releases
+7. IBM CLI: https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli
 
 ### Downloads
 
