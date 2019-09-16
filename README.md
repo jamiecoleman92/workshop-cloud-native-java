@@ -1,48 +1,52 @@
 # Cloud-native Java Workshop
 
 This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio technologies for implementing, deploy and update a set of cloud-native microservices. The workshop has be structured as four modules:
-* **Module 1** covers the foundational technologies for producing and consuming REST services
-* **Module 2** covers the technologies essential for developing and deploying microservices at scale where the microservices are the responsibility of autonomous teams.
-* **Module 3** covers the observability operational needs of microservice deployments at scale, such as tracing request and understanding microservice health.
-* **Module 4** covers the deployment, scaling and updating of microserivces at scale, through Kubernetes and Istio.
-* **Module 5** covers the deployment, scaling and updating of microserivces on the Cloud.
+* **REST Foundation** covers the foundational technologies for producing and consuming REST services
+* **Scalable Microservice Development** covers the technologies essential for developing and deploying microservices at scale where the microservices are the responsibility of autonomous teams.
+* **Microservice Observability** covers the observability operational needs of microservice deployments at scale, such as tracing request and understanding microservice health.
+* **Microservice Deployment and Update** covers the deployment, scaling and updating of microserivces at scale, through Kubernetes and Istio.
+* **The Cloud** covers the deployment, scaling and updating of microserivces on the Cloud.
 
 Each workshop module consists of a number of Open Liberty Guides each of which demonstrates a key cloud-native microservice technology. Each Guide is designed to be taken independently so if you just want to learn about a specific technology you can just take that guide. 
 
-The workshop is split into two parts. The first you will pick two guides from the 1st part of the workshop. Pick 1 guide from modules 1-3. Then pick one guide from module 4. This should take you around an 45 minutes to finish.
+The workshop is split into three parts. The first you will pick one guide from the 1st part of the workshop. Then pick one guide from the second part of the workshop. Both these guides should take you around an 45 minutes to finish.
 
-For the second part of the workshop you will pick one of the two guides in module 5. These take around 45 minutes to finish.
+For the third part of the workshop you will pick one of the two guides. These take around 45 minutes to finish.
 
 ## Table of Contents
 
-### 1st Part of Workshop
 - [Cloud-native Java Workshop](#cloud-native-java-workshop)
   - [Table of Contents](#table-of-contents)
   - [Workshop Preparation](#workshop-preparation)
     - [Pre-requisites](#pre-requisites)
     - [Downloads](#downloads)
 - [Introduction](#introduction)
-- [Module 1: REST Foundation](#module-1-rest-foundation)
+
+### 1st Part of Workshop
+
+- [REST Foundation](#module-1-rest-foundation)
     - [Creating a RESTful web service](#creating-a-restful-web-service)
     - [Injecting dependencies into microservices](#injecting-dependencies-into-microservices)
     - [Consuming RESTful services with template interfaces](#consuming-restful-services-with-template-interfaces)
-- [Module 2: Scalable Microservice Development](#module-2-scalable-microservice-development)
+- [Scalable Microservice Development](#module-2-scalable-microservice-development)
     - [Configuring Microservices](#configuring-microservices)
     - [Building fault-tolerant microservices with the @Fallback annotation](#building-fault-tolerant-microservices-with-the-fallback-annotation)
     - [Securing microservices with JSON Web Tokens](#securing-microservices-with-json-web-tokens)
     - [Documenting RESTful APIs](#documenting-restful-apis)
-- [Module 3: Microservice Observability](#module-3-microservice-observability)
+- [Microservice Observability](#module-3-microservice-observability)
     - [Providing metrics from a microservice](#providing-metrics-from-a-microservice)
     - [Adding health reports to microservices](#adding-health-reports-to-microservices)
     - [Enabling distributed tracing in microservices](#enabling-distributed-tracing-in-microservices)
-- [Module 4: Microservice Deployment and Update](#module-4-microservice-deployment-and-update)
+
+### 2nd Part of Workshop
+- [Microservice Deployment and Update](#module-4-microservice-deployment-and-update)
     - [Deploying microservices to Kubernetes](#deploying-microservices-to-kubernetes)
     - [Configuring microservices running in Kubernetes](#configuring-microservices-running-in-kubernetes)
     - [Checking the health of microservices on Kubernetes](#checking-the-health-of-microservices-on-kubernetes)
     - [Managing microservice traffic using Istio](#managing-microservice-traffic-using-istio)
 
-### 2nd Part of Workshop
-- [Module 5: The Cloud](#module-5-the-cloud)
+### 3rd Part of Workshop
+- [The Cloud](#module-5-the-cloud)
     - [Deploying microservices to IBM Cloud]()
     - [Deploying microservices to OpenShift]()
 
