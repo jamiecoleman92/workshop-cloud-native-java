@@ -1,6 +1,6 @@
 # Cloud-native Java Workshop
 
-This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio technologies for implementing, deploy and update a set of cloud-native microservices. The workshop has be structured as four modules:
+This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio technologies for implementing, deploy and update a set of cloud-native microservices. The workshop has be structured as 5 modules:
 * **REST Foundation** covers the foundational technologies for producing and consuming REST services
 * **Scalable Microservice Development** covers the technologies essential for developing and deploying microservices at scale where the microservices are the responsibility of autonomous teams.
 * **Microservice Observability** covers the observability operational needs of microservice deployments at scale, such as tracing request and understanding microservice health.
@@ -9,9 +9,7 @@ This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio
 
 Each workshop module consists of a number of Open Liberty Guides each of which demonstrates a key cloud-native microservice technology. Each Guide is designed to be taken independently so if you just want to learn about a specific technology you can just take that guide. 
 
-The workshop is split into three parts. The first you will pick one guide from the 1st part of the workshop. Then pick one guide from the second part of the workshop. Both these guides should take you around an 45 minutes to finish.
-
-For the third part of the workshop you will pick one of the two guides. These take around 45 minutes to finish.
+Please pick any guide you are interested in from the first part of the workshop and after the break we will do all the guides from the second part of the workshop. If you are finished and are feeling brave, try out the cloud section of the workshop. You can either try the IBM Cloud guide or OpenShift depending on what you prefer. Enjoy!!!
 
 ## Table of Contents
 
@@ -45,7 +43,7 @@ For the third part of the workshop you will pick one of the two guides. These ta
     - [Checking the health of microservices on Kubernetes](#checking-the-health-of-microservices-on-kubernetes)
     - [Managing microservice traffic using Istio](#managing-microservice-traffic-using-istio)
 
-### 3rd Part of Workshop
+### Extra Part of Workshop
 - [The Cloud](#module-5-the-cloud)
     - [Deploying microservices to IBM Cloud]()
     - [Deploying microservices to OpenShift]()
@@ -66,18 +64,11 @@ To use these guides you need the following pre-requisites:
    2. Mac: https://docs.docker.com/docker-for-windows/#kubernetes
    3. Linux: https://github.com/kubernetes/minikube#installation)
 6. Download latest stable Istio release (not a Pre-release): https://github.com/istio/istio/releases
+
+Below is only required for the extra part of the workshop (If you are feeling brave :D)
+
 7. IBM CLI: https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli
 
-### Downloads
-
-If you will be taking the workshop at a location with limited network bandwidth, it is recommended you do the following beforehand in order to populate your local .m2 repo and Docker cache.
-
-```
-git clone https://github.com/gcharters/workshop-cloud-native-java.git
-cd workshop-cloud-native-java
-mvn install
-docker build -t prime:mym2 .
-```
 
 # Introduction
 
